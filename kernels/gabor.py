@@ -11,3 +11,8 @@ gabor45 = np.array([
     [0.23, 0, -0.23],
     [0.20, -0.23, -0.50]
 ], dtype=np.float32)
+
+collection = {
+    "gabor0": gabor0,
+    "gabor45": gabor45
+}

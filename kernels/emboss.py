@@ -17,3 +17,9 @@ emboss3 = np.array([
     [-1, 1, 1],
     [-1, -1, 0]
 ], dtype=np.float32)
+
+collection = {
+    "emboss1": emboss1,
+    "emboss2": emboss2,
+    "emboss3": emboss3
+}

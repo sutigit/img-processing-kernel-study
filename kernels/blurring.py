@@ -23,3 +23,11 @@ motion_blur = np.array([
     [0,   1/3, 0],
     [0,   0,   1/3]
 ], dtype=np.float32)
+
+collection = {
+    "box_blur": box_blur,
+    "gaussian_blur": gaussian_blur,
+    "binomial_blur": binomial_blur,
+    "motion_blur": motion_blur
+}
+

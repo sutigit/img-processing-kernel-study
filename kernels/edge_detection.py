@@ -82,3 +82,19 @@ kirschW = np.array([
     [5, -3, -3]
 ], dtype=np.float32)
 
+collection = {
+    "sobelX": sobelX,
+    "sobelY": sobelY,
+    "scharrX": scharrX,
+    "scharrY": scharrY,
+    "prewittX": prewittX,
+    "prewittY": prewittY,
+    "robertsX": robertsX,
+    "robertsY": robertsY,
+    "laplacian": laplacian,
+    "laplacian8": laplacian8,
+    "kirschN": kirschN,
+    "kirschS": kirschS,
+    "kirschE": kirschE,
+    "kirschW": kirschW
+}

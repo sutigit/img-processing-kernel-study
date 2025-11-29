@@ -23,3 +23,10 @@ gradientY = np.array([
     [1,  1,  1],
     [0,  0,  0]
 ], dtype=np.float32)
+
+collection = {
+    "ridge": ridge,
+    "spot": spot,
+    "gradientX": gradientX,
+    "gradientY": gradientY
+}

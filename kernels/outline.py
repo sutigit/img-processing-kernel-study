@@ -17,3 +17,9 @@ edge_detect2 = np.array([
     [1, -4, 1],
     [0, 1, 0]
 ], dtype=np.float32)
+
+collection = {
+    'outline': outline,
+    'edge_detect1': edge_detect1,
+    'edge_detect2': edge_detect2
+}

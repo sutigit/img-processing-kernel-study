@@ -17,3 +17,9 @@ edge_enhance = np.array([
     [-1,  1, 0],
     [ 0,  0, 0]
 ], dtype=np.float32)
+
+collection = {
+    'sharpen': sharpen,
+    'high_boost': high_boost,
+    'edge_enhance': edge_enhance
+}
